@@ -1,2 +1,2 @@
-#title: PFI CV\n
-#description: Proyecto final integrador HTML
+#title: PFI CV;
+#description: Proyecto final integrador HTML;

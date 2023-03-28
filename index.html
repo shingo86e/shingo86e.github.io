@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="CSS/estilos.css" rel="stylesheet" type="text/css">
+    <title>CV Paz Exequiel</title>
+    <script src="JSON/eventos.js"></script>
+</head>
+
+<body>
+    
+    <div class="botonera">
+        <a href="#personal"><img class="boton" src="IMAGENES/personal.png" id="pers" onmousemove="enAmarillo1()" onmouseleave="enNegro1()" alt="informacion personal"> </a>
+        <a href="#laboral"><img class="boton" src="IMAGENES/laboral.png" id="labo" onmousemove="enAmarillo2()" onmouseleave="enNegro2()" alt="informacion laboral"> </a>
+        <a href="#habilidades"><img class="boton" src="IMAGENES/skill.png" id="habi" onmousemove="enAmarillo3()" onmouseleave="enNegro3()" alt="habilidades"> </a>
+        <a href="#educacion"><img class="boton" src="IMAGENES/estudios.png" id="estu" onmousemove="enAmarillo4()" onmouseleave="enNegro4()" alt="estudios"> </a>
+    </div>
+                          
+    <div class="degrade">
+        <div class="grilla">
+    <div class="intro">
+        <div class="nombres">Exequiel Paz</div>
+        <div class="bajada">Estudiante de ingenieria en Sistemas de Información</div>
+        <a href="#"><img class="XNo5Ab" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAD30lEQVR4AayShW4cMRCGLQgzHArKDK9xor5KnyDMSZmZmZmZRWWuKMy8e3y7U8/KvXG6PlR+6dM3Wtv/tElYulnzHXI918HnvQZ7PNfgGfdvz1XQEJzFtz14B++y+crCO+D2XoG97ssw475swhwuGWSOK26T3zX24luWbZbehTxe1uS+YOiuCzGwOB+3mA2yAvcFU8cO7Mrsf30R3Lz4nfMcL+eglZyNkm3QGXZhJ0snzrOw3nE61uc4zQs4wmKOxC3PaIszZA4/I2On6zSsY8ni4P9Kx6loX/WJMCCOk5G47dCZ+r79HLtxR8LfueN45F318TDEORYiW4TJHBcvbf8QhT/TJoRiJkQME2bCJvRpJnwaM8TbuX24Q/k3wS82VR0JwRwOB8nSjF5xJgRvhgxIEtEj3kngLibHcQzc1YdDetWhICSj8iD5UW8MUsX+PoBGdNzJ/qXqQHBv5f4AVHCEBX4yp1LMG26EIJ2I+2hpFn18J8OsuQi5lXv9MxV7/ZAul35HIY0k7cCduJtV7tN95bt0sNgdt5g1sjR/GrX/+E9+j8DyI35xV7eh6q/cpftY2Q5tDwfSoVxYj5jwf5Yf4qV0j+bknXtY2bbZZxxIh9KtlkERfjaD52QFcgdSvl17xkq3zP4u3TwDSAlZAZ2pgmeZgrtZ6aZpraRrGpR0kuVZFTpXv1eBu1lpx5RW3DEFFu1kmWzSM21AiehC04wWc/uUxorbpn4XtU6CiuLWKcvZ5HVPxN7ZQkZwNytqnnxW1DwBSGETWSabnPsSkjuV4G5W2DC+hwPJyCZdL/22ngLJYt7DihonfAW1Y2BRR5bJJhtvaeL9OFoJ7mZrGiC3sHb8b6vlcdswFATRL2ZCDagAX12H+3DOOWe7A8d2fFQZlsRMXpzu6z8kVnGdPcDgDbRJ5InP/nFB3lFOTMlck1TVuW8gD8wzcRO3FeQfFvfeQUbeQU5M2K0yOGBJXlVjcmaO1HFTsernecPZTd/c3ZQ0CeTM7M+S3L0MNWbpT/a94abql7ebXDrburidECiZa5LsspZUZO+kzNI2Z31r9JPsmlx7M2namzHZG7J1vaQkp6qBff09csYN3FKS6jt5w1mPA2stos8sCb/b6zFzIPMcduOG+kzORjpurUaBtRKRuRwSsz8LqnpWQuaoV8MAu9V3VF/MG9Zi2DQXAxrwUlhSENeZA7aWwyY/+bc1tkKu/hOXxkLwZswHVLlTUlINNW0mjFnswC71W+FtGLOd+9ps+7k2qw/MtEmSrlNZB+c6z5jBrPo3nZNjzXQm1FTrjgSp6dYDakr3oFd9U+9y1lO9tTZT6gAAAABJRU5ErkJggg==" style="height:18px;width:18px" alt="" data-atf="1" data-frt="0"></a>
+        <a href="#"><img class="XNo5Ab" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAM1BMVEX///+6u711eHtaXWFMUFQkKS7j5OQwNTrx8fKRk5bV1tc+Q0esrrDIycqDhomeoaNna24OVeM5AAAA/ElEQVR4AX3T0a6EIAwE0AEY2oLr3v//2iumIaC650UfJkw1BZMQUyZzigEPShQOEhUXJlyIYaaZN1kxVOEDqXAqfCQ6nZ9j46TFRDL7fDxswNbIdBDKBgQeDIciPHwAqJcWBVBHSaQHVoVdBCD0ilVgJ+NFcaGNXUC8HeA2djsSO8Udu4TsVXeJhwx27TVA8IQHjR3a7xka0ttXBB9y9+fLCLsH+X3+DQxjGQwLGyuBSFrIZNs/cJ9vI70BKKRUzeRYkD8OxU+TUuQsPFU6em8mI9Rsg6PL09JWTNal9bWPZrYGpN4uzhLIipldA4aLsovAicSCOy0jrBj+Adb8C4ZUKU58AAAAAElFTkSuQmCC" style="height:18px;width:18px" alt="" data-atf="1" data-frt="0"></a>
+        <a href="#"><img class="XNo5Ab" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABDUlEQVR4AWP4////gOLB44D6nTcsGIo33QHi/zTGd0B2YTiAPpYjHIHNAf/piQk6wGPW8f/rLz8HYRCbXg5AWI4GQGJ0cwDY12gAJDbcHUA4CkZAIqQUK7Ts/m/SfxBMs5RupswBaACr+P47b/5zlG/5DyzZ/r/+8hNF7vuvP//nn3r0X6JhJ+0ccPrR+/+H7735jw9cf/n5v0D1Nuo5gBxQve06zR0AjoL7b7/+//zjN4bc+ScfaOeA33///k9Yfg4mDw7u/Xdeo6uhnQP6D93FMNxlxjF0ZbRzgMXEQ9iyI90cALIMJoccDXRzAK6CZog6YNQBow6gIx54Bwx4x2RAu2bAysoEZu9o7xgAQrvkxt3WZi0AAAAASUVORK5CYII=" style="height:18px;width:18px" alt="" data-atf="1" data-frt="0"></a>
+    </div>
+        <img src="IMAGENES/foto_cv.jpg" class="perfil" width="250" height="250">
+        </div>
+    </div> 
+    
+    <div class="caja"  id="personal">
+        <div class="titulo">Información Personal</div>
+        <div class="text">    
+            <ul>
+                <li>Edad: 37</li>
+                <li>Domicilio: Pje Magallanes 2578</li>
+                <li>Provincia: Tucumán</li>
+                <li>Localidad: San Miguel de Tucumán</li>
+                <li>País: Argentina</li>
+                <li>Fecha de Nacimiento: 21/02/1986</li>
+                <li>Telefono: 3816658794</li>
+                <li>E-mail: exequielsony@gmail.com</li>
+            </ul>
+        </div>
+    </div>
+        
+    <div class="caja" id="laboral">
+        <div class="titulo">Experiencia Laboral</div>
+        <div class="text">    
+            <ul>
+                <li>Representante de atención al cliente (Cytitech SA)2012-2013</li>
+                <li>Supervisor de piso de operaciones (Cytitech SA) 2013-2018</li>
+                <li>Vendedor de PSA (Plugiesse SA) 2018-2020</li>
+                <li>Representante de atención al cliente (Atento SA) 2020 - actualidad</li>
+            </ul>
+        </div>
+    </div>
+        
+    <div class="caja" id="habilidades">
+        <div class="titulo">Habilidades</div>
+        <div class="text">    
+            <ul>
+                <li>Idiomas</li>
+                <p>Inglés (Nivel Medio) </p>
+                <li>Computación</li>
+                <p>Microsoft Word (Nivel Avanzado) - Microsoft Excel (Nivel Avanzado) - Correo Electrónico (Nivel Avanzado) - Navegadores de Internet (Nivel Avanzado) .
+                    Algoritmos de programación, programación orientada a objetos (NetBeans Java), programación imperativa (c y c++), programación lógica (prolog y Haskell). Todo en nivel básico.
+                    </p>
+                <li>Conocimientos Contables</li>
+                <p>Análisis de cuentas (Nivel Básico) - Créditos y cobranzas (Nivel Básico) - Facturación (Nivel Básico) - Liquidación de sueldos (Nivel Básico) - Pago a proveedores (Nivel Básico) - Trámites (AFIP-DGR-ANSES-ART) (Nivel Básico) - Trámites bancarios (Nivel Básico) </p>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="caja" id="educacion">
+        <div class="titulo">Educación Formal</div>
+        <div class="text">    
+            <ul>
+                <li>Estudios Universitarios: </li>
+                <p>Universidad Nacional de Tucumán
+                    Título: Médico - Incompleto
+                    2005 – no cursando.
+                    </p>
+                <li>Estudios Universitarios</li>
+                <P>Universidad Tecnológica Nacional
+                    Título: Ingeniería en sistemas de información - Incompleto
+                    2020 – actualmente cursando.
+                    </P>
+                <li>Estudios Secundarios</li>
+                <P>Escuela de Comercio nº 1
+                    Título: Perito Mercantil - Completo 
+                    1999 – 2003
+                    </P>
+                <li>Estudios Primarios</li>
+                <p>Juan Bautista Alberdi II
+                    Título: - Completo 
+                    1992 – 1998
+                    </p>
+            </ul>
+        </div>
+    </div>
+    
+</body>
+</html>
